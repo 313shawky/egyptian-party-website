@@ -1,0 +1,118 @@
+/*Home*/
+header{
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.overlay{
+    background-color: rgba(214, 46, 51, 0.6);
+}
+
+.header-text h1{
+    font-size: 70px;
+    font-weight: 400;
+}
+
+/*Navigation Sidebar*/
+nav{
+    width: 20%;
+    left: -20%;
+    background-color: #414658;
+}
+
+nav a{
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.5s;
+}
+
+.exit{
+    cursor: pointer;
+    color: #fff;
+    transition: color 0.5s;
+}
+
+nav a:hover, .exit:hover{
+    color: rgba(214, 46, 51, 0.4);
+}
+
+.menu{
+    cursor: pointer;
+    left: 10px;
+}
+
+/*Details*/
+.title{
+    cursor: pointer;
+    background-color: rgba(214, 46, 51, 0.6);
+    color: #fff;
+}
+
+.content{
+    display: none;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #ccc;
+}
+
+.active-singer .content{
+    display: block;
+}
+
+/*Duration*/
+.countdown{
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/*Contacts*/
+.contacts{
+    color: #777;
+}
+
+.col-md-3 p{
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.social span{
+    display: inline-block;
+}
+
+.social span i{
+    border: 1px solid #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.social span i:hover{
+    background-color: #d62e33;
+    border-color: #d62e33;
+    color: #fff;
+}
+
+.col-md-6 h2, h5{
+    color: #444;
+    font-weight: bold;
+}
+
+.email{
+    color: #d62e33;
+}
+
+form button{
+    background-color: #d62e33 !important;
+}
+
